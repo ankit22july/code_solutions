@@ -1,0 +1,14 @@
+
+
+
+1.	A union is a special data type available in C that allows storing different data types in the same memory location. You can define a 
+    union with many members, but only one member can contain a value at any given time. Unions provide an efficient way of using the same 
+    memory location for multiple purposes.
+
+2.	In C, struct and union types cannot have static members. In C++, struct types are allowed to have static members, but union cannot 
+    have static members in C++ also.
+
+3.	When we declare a union, memory allocated for the union is equal to memory needed for the largest member of it, and all members share 
+    this same memory space.
+
+4.	Array members are deeply copied when a struct variable is assigned to another one. 
